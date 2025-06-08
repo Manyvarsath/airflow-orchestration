@@ -1,0 +1,56 @@
+{"timestamp":"2025-06-08T22:31:18.236299","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-08T22:31:18.236885","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/duration-prediction_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-08T22:31:23.047516Z","level":"error","event":"2025/06/08 22:31:23 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.047699Z","level":"error","event":"The git executable must be specified in one of the following ways:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.047794Z","level":"error","event":"    - be included in your $PATH","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.047877Z","level":"error","event":"    - be set via $GIT_PYTHON_GIT_EXECUTABLE","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.047957Z","level":"error","event":"    - explicitly set via git.refresh(<full-path-to-git-executable>)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048041Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048119Z","level":"error","event":"All git commands will error until this is rectified.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048199Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048276Z","level":"error","event":"This initial message can be silenced or aggravated in the future by setting the","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048351Z","level":"error","event":"$GIT_PYTHON_REFRESH environment variable. Use one of the following values:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048429Z","level":"error","event":"    - quiet|q|silence|s|silent|none|n|0: for no message or exception","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048504Z","level":"error","event":"    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048608Z","level":"error","event":"    - error|e|exception|raise|r|2: for a raised exception","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048689Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048763Z","level":"error","event":"Example:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048837Z","level":"error","event":"    export GIT_PYTHON_REFRESH=quiet","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.048913Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:23.100263","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/xgboost/callback.py:386: UserWarning: [22:31:23] WARNING: /workspace/src/objective/regression_obj.cu:250: reg:linear is now deprecated in favor of reg:squarederror.\n  self.starting_round = model.num_boosted_rounds()\n","logger":"py.warnings"}
+{"timestamp":"2025-06-08T22:31:25.095631Z","level":"info","event":"[0]\tvalidation-rmse:11.44482","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:27.466621Z","level":"info","event":"[1]\tvalidation-rmse:10.77202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:28.365549Z","level":"info","event":"[2]\tvalidation-rmse:10.18363","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:29.102021Z","level":"info","event":"[3]\tvalidation-rmse:9.67396","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:29.978609Z","level":"info","event":"[4]\tvalidation-rmse:9.23166","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:30.826038Z","level":"info","event":"[5]\tvalidation-rmse:8.84808","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:31.738661Z","level":"info","event":"[6]\tvalidation-rmse:8.51883","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:32.515364Z","level":"info","event":"[7]\tvalidation-rmse:8.23597","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:33.408632Z","level":"info","event":"[8]\tvalidation-rmse:7.99320","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:34.496752Z","level":"info","event":"[9]\tvalidation-rmse:7.78709","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:36.250891Z","level":"info","event":"[10]\tvalidation-rmse:7.61022","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:37.743593Z","level":"info","event":"[11]\tvalidation-rmse:7.45952","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:38.522577Z","level":"info","event":"[12]\tvalidation-rmse:7.33049","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:39.323632Z","level":"info","event":"[13]\tvalidation-rmse:7.22098","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:39.834985Z","level":"info","event":"[14]\tvalidation-rmse:7.12713","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:40.488870Z","level":"info","event":"[15]\tvalidation-rmse:7.04752","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:41.001988Z","level":"info","event":"[16]\tvalidation-rmse:6.98005","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:41.476453Z","level":"info","event":"[17]\tvalidation-rmse:6.92232","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:42.072506Z","level":"info","event":"[18]\tvalidation-rmse:6.87112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:42.647871Z","level":"info","event":"[19]\tvalidation-rmse:6.82740","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:43.100619Z","level":"info","event":"[20]\tvalidation-rmse:6.78995","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:43.714368Z","level":"info","event":"[21]\tvalidation-rmse:6.75792","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:44.192822Z","level":"info","event":"[22]\tvalidation-rmse:6.72994","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:44.747711Z","level":"info","event":"[23]\tvalidation-rmse:6.70547","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:45.206627Z","level":"info","event":"[24]\tvalidation-rmse:6.68390","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:46.534942Z","level":"info","event":"[25]\tvalidation-rmse:6.66421","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:48.099920Z","level":"info","event":"[26]\tvalidation-rmse:6.64806","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:50.045619Z","level":"info","event":"[27]\tvalidation-rmse:6.63280","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:51.643937Z","level":"info","event":"[28]\tvalidation-rmse:6.61924","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:52.678301Z","level":"info","event":"[29]\tvalidation-rmse:6.60773","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:53.028014","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/mlflow/xgboost/__init__.py:168: UserWarning: [22:31:53] WARNING: /workspace/src/c_api/c_api.cc:1427: Saving model in the UBJSON format as default.  You can use file extension: `json`, `ubj` or `deprecated` to choose between formats.\n  xgb_model.save_model(model_data_path)\n","logger":"py.warnings"}
+{"timestamp":"2025-06-08T22:31:58.768673Z","level":"error","event":"\u001b[31m2025/06/08 22:31:58 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-08T22:31:58.847505Z","level":"info","event":"🏃 View run trusting-jay-248 at: http://mlflow-server:5000/#/experiments/1/runs/8f8c49e9dff647fdb8af6c762a45a6ac","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:58.847943Z","level":"info","event":"🧪 View experiment at: http://mlflow-server:5000/#/experiments/1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-08T22:31:58.878556","level":"info","event":"Done. Returned value was: 8f8c49e9dff647fdb8af6c762a45a6ac","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-08T22:31:58.878830","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019751ab-28a9-7e27-b95e-518a6de40308'), task_id='train_model', dag_id='duration_prediction_dag', run_id='manual__2025-06-08T22:31:01.004037+00:00', try_number=1, map_index=-1, hostname='331ece33e204', context_carrier={}, task=<Task(PythonOperator): train_model>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 6, 8, 22, 31, 18, 76220, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

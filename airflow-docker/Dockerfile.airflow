@@ -1,0 +1,12 @@
+# This argument will be populated by docker-compose, using the
+# AIRFLOW_IMAGE_NAME environment variable or its default.
+ARG AIRFLOW_BASE_IMAGE_FROM_COMPOSE
+FROM ${AIRFLOW_BASE_IMAGE_FROM_COMPOSE}
+
+# The official Airflow images typically run as the 'airflow' user.
+# We'll install the packages as this user.
+USER airflow
+
+# Install the Python packages needed for your DAGs
+# --no-cache-dir is used to reduce image size
+RUN pip install --no-cache-dir pandas xgboost scikit-learn mlflow
