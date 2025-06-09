@@ -1,0 +1,30 @@
+{"timestamp":"2025-06-09T21:15:35.969230","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-09T21:15:35.969829","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/duration-yellow_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-09T21:15:39.664840","level":"info","event":"Feature dictionaries loaded from temp_airflow_data/feature_dicts.pkl","logger":"unusual_prefix_d4d5b673c611e90ba5502045c7d5770201eceb6a_duration_yellow_dag"}
+{"timestamp":"2025-06-09T21:15:39.889644","level":"info","event":"Target list loaded from temp_airflow_data/target_list.pkl","logger":"unusual_prefix_d4d5b673c611e90ba5502045c7d5770201eceb6a_duration_yellow_dag"}
+{"timestamp":"2025-06-09T21:15:46.643858Z","level":"error","event":"2025/06/09 21:15:46 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644053Z","level":"error","event":"The git executable must be specified in one of the following ways:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644187Z","level":"error","event":"    - be included in your $PATH","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644301Z","level":"error","event":"    - be set via $GIT_PYTHON_GIT_EXECUTABLE","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644402Z","level":"error","event":"    - explicitly set via git.refresh(<full-path-to-git-executable>)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644503Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644595Z","level":"error","event":"All git commands will error until this is rectified.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644690Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644783Z","level":"error","event":"This initial message can be silenced or aggravated in the future by setting the","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644878Z","level":"error","event":"$GIT_PYTHON_REFRESH environment variable. Use one of the following values:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.644974Z","level":"error","event":"    - quiet|q|silence|s|silent|none|n|0: for no message or exception","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.645070Z","level":"error","event":"    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.645187Z","level":"error","event":"    - error|e|exception|raise|r|2: for a raised exception","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.645290Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.645384Z","level":"error","event":"Example:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.645479Z","level":"error","event":"    export GIT_PYTHON_REFRESH=quiet","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:15:46.645576Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:16:35.275987","level":"info","event":"Model intercept: 24.776368754137366","logger":"unusual_prefix_d4d5b673c611e90ba5502045c7d5770201eceb6a_duration_yellow_dag"}
+{"timestamp":"2025-06-09T21:16:40.710800Z","level":"error","event":"\u001b[31m2025/06/09 21:16:40 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:16:40.865672Z","level":"error","event":"Registered model 'TaxiDurationModel' already exists. Creating a new version of this model...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:16:40.893882Z","level":"error","event":"2025/06/09 21:16:40 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: TaxiDurationModel, version 9","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:16:40.894055Z","level":"error","event":"Created version '9' of model 'TaxiDurationModel'.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-06-09T21:16:40.918871Z","level":"info","event":"🏃 View run gregarious-fawn-206 at: http://mlflow-server:5000/#/experiments/2/runs/826e74d4d2b94582aa7a87ee002a5602","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-09T21:16:40.919023Z","level":"info","event":"🧪 View experiment at: http://mlflow-server:5000/#/experiments/2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-09T21:16:41.259865","level":"info","event":"Done. Returned value was: 826e74d4d2b94582aa7a87ee002a5602","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-06-09T21:16:41.260102","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197568c-03b5-7866-b76a-86986ce7a560'), task_id='train_model', dag_id='duration_yellow_prediction_dag', run_id='manual__2025-06-09T21:15:05.977718+00:00', try_number=1, map_index=-1, hostname='e9405cdf3ce5', context_carrier={}, task=<Task(PythonOperator): train_model>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 6, 9, 21, 15, 35, 823677, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

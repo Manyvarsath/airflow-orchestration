@@ -1,7 +1,0 @@
-{"timestamp":"2025-06-08T21:12:08.082784","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
-{"timestamp":"2025-06-08T21:12:08.083576","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_dag.py","logger":"airflow.models.dagbag.DagBag"}
-{"timestamp":"2025-06-08T21:12:08.135512","level":"info","event":"Done. Returned value was: inaccurate","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
-{"timestamp":"2025-06-08T21:12:08.135686","level":"info","event":"Branch into inaccurate","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
-{"timestamp":"2025-06-08T21:12:08.136482","level":"info","event":"Following branch {'inaccurate'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
-{"timestamp":"2025-06-08T21:12:08.136635","level":"info","event":"Skipping tasks [('accurate', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
-{"timestamp":"2025-06-08T21:12:08.136914","level":"info","event":"Skipping downstream tasks.","logger":"task"}
